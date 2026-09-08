@@ -1,0 +1,14 @@
+USE EscuelaDB;
+GO
+
+DROP TABLE IF EXISTS Profesores;
+GO
+
+CREATE TABLE Profesores(
+ProfesorID INT IDENTITY(1,1) PRIMARY KEY, 
+Nombre VARCHAR(50) NOT NULL,
+Apellido VARCHAR(50) NOT NULL,
+Especialidad VARCHAR(80) NULL,
+);
+GO
+
