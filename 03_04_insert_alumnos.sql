@@ -8,4 +8,8 @@ VALUES ('Ana', 'García', '2005-03-14', 'ana.garcia@correo.com'),
     ('Diego', 'Torres', '2005-01-30', 'diego.torres@correo.com');
 GO
 
+INSERT INTO Alumnos(Nombre,Apellido,FechaNacimiento,Email)
+VALUES ('Jose', 'Carlos', '2007-10-10', 'josecarlosbeltran@correo.com')
+GO
+
 SELECT * FROM Alumnos;

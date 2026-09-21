@@ -11,7 +11,7 @@ GO
 CREATE TABLE Alumnos (
     --IDNETITY Asigna el primer numero a una lista de alumnos y lo va incrementando en 1
     --PRIMARY KEY se le asigna al dato que no se repetira
-    alumnoID INT IDENTITY (1,1) PRIMARY KEY,
+    AlumnoID INT IDENTITY (1,1) PRIMARY KEY,
     --NOT NULL Obliga a agregar un nombre al campo
     Nombre VARCHAR(50) NOT NULL,
     Apellido VARCHAR(50) NOT NULL,
